@@ -142,12 +142,14 @@
     <ClInclude Include="..\..\..\..\Downloads\glad\include\glad\glad.h" />
     <ClInclude Include="..\..\..\..\Downloads\glad\include\KHR\khrplatform.h" />
     <ClInclude Include="Application.h" />
+    <ClInclude Include="mat4.h" />
     <ClInclude Include="vec2.h" />
     <ClInclude Include="vec3.h" />
     <ClInclude Include="vec4.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad\src\glad.c" />
+    <ClCompile Include="mat4.cpp" />
     <ClCompile Include="vec3.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
