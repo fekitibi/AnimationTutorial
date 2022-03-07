@@ -1,5 +1,5 @@
 #include "quat.h"
-#include <cmath>
+#include <math.h>
 
 quat angleAxis(float angle, const vec3& axis) {
 	vec3 norm = normalized(axis);
