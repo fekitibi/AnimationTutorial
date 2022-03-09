@@ -144,6 +144,7 @@
     <ClInclude Include="Application.h" />
     <ClInclude Include="mat4.h" />
     <ClInclude Include="quat.h" />
+    <ClInclude Include="Shader.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="vec2.h" />
     <ClInclude Include="vec3.h" />
