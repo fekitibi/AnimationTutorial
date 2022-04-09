@@ -143,7 +143,9 @@
     <ClInclude Include="..\..\..\..\Downloads\glad\include\KHR\khrplatform.h" />
     <ClInclude Include="Application.h" />
     <ClInclude Include="Attribute.h" />
+    <ClInclude Include="cgltf.h" />
     <ClInclude Include="Draw.h" />
+    <ClInclude Include="GLTFLoader.h" />
     <ClInclude Include="IndexBuffer.h" />
     <ClInclude Include="mat4.h" />
     <ClInclude Include="quat.h" />
@@ -158,8 +160,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Attribute.cpp" />
+    <ClCompile Include="cgltf.c" />
     <ClCompile Include="Draw.cpp" />
     <ClCompile Include="glad\src\glad.c" />
+    <ClCompile Include="GLTFLoader.cpp" />
     <ClCompile Include="IndexBuffer.cpp" />
     <ClCompile Include="mat4.cpp" />
     <ClCompile Include="quat.cpp" />
