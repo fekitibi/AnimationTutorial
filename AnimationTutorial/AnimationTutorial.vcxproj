@@ -143,9 +143,13 @@
     <ClInclude Include="..\..\..\..\Downloads\glad\include\KHR\khrplatform.h" />
     <ClInclude Include="Application.h" />
     <ClInclude Include="Attribute.h" />
+    <ClInclude Include="Draw.h" />
+    <ClInclude Include="IndexBuffer.h" />
     <ClInclude Include="mat4.h" />
     <ClInclude Include="quat.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Texture.h" />
     <ClInclude Include="Transform.h" />
     <ClInclude Include="Uniform.h" />
     <ClInclude Include="vec2.h" />
@@ -154,14 +158,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Attribute.cpp" />
+    <ClCompile Include="Draw.cpp" />
     <ClCompile Include="glad\src\glad.c" />
+    <ClCompile Include="IndexBuffer.cpp" />
     <ClCompile Include="mat4.cpp" />
     <ClCompile Include="quat.cpp" />
     <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="Texture.cpp" />
     <ClCompile Include="Transform.cpp" />
     <ClCompile Include="Uniform.cpp" />
     <ClCompile Include="vec3.cpp" />
     <ClCompile Include="WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lit.frag" />
+    <None Include="static.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
