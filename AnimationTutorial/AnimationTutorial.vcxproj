@@ -147,6 +147,7 @@
     <ClInclude Include="Draw.h" />
     <ClInclude Include="GLTFLoader.h" />
     <ClInclude Include="IndexBuffer.h" />
+    <ClInclude Include="Interpolation.h" />
     <ClInclude Include="mat4.h" />
     <ClInclude Include="quat.h" />
     <ClInclude Include="Shader.h" />
