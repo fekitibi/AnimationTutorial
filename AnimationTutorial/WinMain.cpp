@@ -16,6 +16,7 @@
 #include <windows.h>
 #include <iostream>
 #include "Application.h"
+#include "Sample.h"
 
 int WINAPI WinMain(HINSTANCE, HINSTANCE, PSTR, int);
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
@@ -54,7 +55,7 @@ const wchar_t* GetWC(const char* c)
 }
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine, int iCmdShow) {
-	gApplication = new Application();
+	gApplication = new Sample();
 	WNDCLASSEX wndclass;
 	wndclass.cbSize = sizeof(WNDCLASSEX);
 	wndclass.style = CS_HREDRAW | CS_VREDRAW;
